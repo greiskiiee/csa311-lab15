@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="C:\Users\Lenovo\OneDrive\Documents\F.CSA311\csa311-lab15\lab\src\main\java\calculator\App.java">
+<<<<<<< HEAD
+<file name="C:\Users\Lenovo\OneDrive\Documents\F.CSA311\csa311-lab15\lab\src\main\java\calculator\Division.java">
+=======
+<file name="C:\Users\Lenovo\OneDrive\Documents\F.CSA311\csa311-lab15\lab\src\main\java\calculator\Multiplication.java">
+>>>>>>> feature/add-multiplication
 </file>
 </checkstyle>
