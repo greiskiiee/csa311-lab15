@@ -11,7 +11,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          distribution: "temurin" # ⬅️ Энэ мөрийг нэмэх шаардлагатай
+          distribution: "temurin"
           java-version: "17"
           java-package: "jdk"
           check-latest: false
@@ -21,3 +21,4 @@ jobs:
           overwrite-settings: true
       - name: Run Checkstyle
         run: mvn checkstyle:check
+        working-directory: ./lab
