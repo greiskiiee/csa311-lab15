@@ -11,6 +11,14 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '17'  # or your project's Java version
+          distribution: "temurin"
+          java-version: "17"
+          java-package: "jdk"
+          check-latest: false
+          server-id: github
+          server-username: GITHUB_ACTOR
+          server-password: ${{ secrets.GITHUB_TOKEN }}
+          overwrite-settings: true
       - name: Run Checkstyle
         run: mvn checkstyle:check
+        working-directory: ./lab
